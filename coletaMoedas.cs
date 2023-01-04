@@ -23,8 +23,8 @@ void Update()
 void OnTriggerEnder2D(Collider2D outro) //método de colisão do personagem com a moeda
 {
 	
-	if(outro.gameobject.CompareTag("moeda")) //se o item colidido com o personagem for da TAG "moeda", o objeto será contabilizado em +1 e 
-	{										   será destruido.
+	if(outro.gameobject.CompareTag("moeda")) //se o item colidido com o personagem for da TAG "moeda", o objeto será contabilizado em +1 e será destruido.
+	{										   
 
 		moeda++
 		Destroy (outro.gameObject);
