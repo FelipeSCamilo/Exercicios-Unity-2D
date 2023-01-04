@@ -16,8 +16,8 @@ void Update()
 		{
 			bola.AddForce(new Vector2(0, forca * Time.deltaTime), ForceMode2D.Impulse);
 
-			duplo--; //Esse decremento diminui 1 pulo a cada vez que se aperta "Espaço". Quando chega a 0, cai no chão para 
-		}			   restaurar os 2 pulos novamente.
+			duplo--; //Esse decremento diminui 1 pulo a cada vez que se aperta "Espaço". Quando chega a 0, cai no chão para restaurar os 2 pulos novamente.
+		}
 	}
 }
 
